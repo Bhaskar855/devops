@@ -1,4 +1,3 @@
-
 # Role that pods can assume for access to elasticsearch and kibana
 resource "aws_iam_role" "elasticsearch_user" {
   name               = "module.user_label.id"
